@@ -1,0 +1,15 @@
+Sobre funções anônimas:
+
+<Componente onClick={() => executarFuncao()} - Essa função retorna "executarFuncao()"
+
+<Componente onClick={() => { executarFuncao() }} - Já essa, executa a função
+
+Uma closure em uma função anônima, seria as chaves({}). Então, a segunda função é possui uma closure
+
+Sobre inputs:
+
+Temos inputs controlados e não controlados. Os controlados são aqueles que possuem o parâmetro "value" em seu escopo. Utilizando um input de cor por exemplo, a cor só irá mudar quando mudarmos o valor em value. Já os não controlados são aquele que podem ser mutáveis a qualquer momento, sem ter um parâmetro value em seu escopo para mudá-lo.
+
+Sobre React:
+
+O React só consegue realizar alterações de variáveis utilizando o useState.
